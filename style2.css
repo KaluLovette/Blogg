@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    color: rgb(57, 59, 52);
+}                   
+h3{      
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 5px rgb(109, 105, 105);
+} 
+
+table{
+    margin: 3px 3px 13px 93px;
+    overflow: auto;
+    table-layout: initial;
+    margin: 0 20%;
+    padding: 1px 16px;
+    height: 30%;
+}                                                      
+     table, th, td{
+            border-bottom: 1px solid rgb(57, 59, 52);
+            border-collapse: collapse;              
+     }
+     td{
+         text-align: center;
+         padding: 20px;
+         vertical-align: bottom;
+     }
+     
+     tr:hover{
+         background-color: black;
+         color: white;
+     }
+     tr:nth-child(even){
+         background-color: rgb(150, 143, 143);
+     }
+     #example{
+         caption-side: top;
+     }                                                   
+      ul{
+         list-style-type: none;
+         margin: 0;
+         padding: 0;
+         width: 20%;
+         background-color: rgb(238, 238, 238);
+         
+         position: fixed;
+         overflow: auto;
+     }
+     li{
+        text-align: center;
+        font-weight: bold;
+         
+     }
+     li:last-child{
+         border-bottom: none;
+     }
+     li a{
+        display: block;
+       color: black;
+       text-decoration: none;
+       padding: 10px 25px;
+    }
+    li a.active{
+        background-color: rgb(35, 161, 63);
+        color: rgb(243, 241, 237);
+    }
+    li a:hover:not(.active){
+        background-color: rgb(154, 146, 161);
+        color: whitesmoke;
+    }  
+    .dropdown{
+        position: relative;
+        display: inline-block;
+        margin: 40px;
+    }
+    .dropcontent{
+        position: absolute;
+        display: none;
+        box-shadow: 0 10px 20px rgba(0,0,0,0.19);
+        min-width: 100px;
+    }
+    .dropdown:hover .dropcontent{
+        display: block;
+    }
+    .glory{
+        padding: 20px;
+        text-align: center;
+    }
+                                                                                             
